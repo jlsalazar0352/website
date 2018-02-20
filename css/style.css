@@ -1,71 +1,61 @@
-*
 {
     margin: 0;
     padding: 0;
 }
 
-header
-{
+header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Pic1.JPG");
-    height: 160vh;
+    height: 150vh;
     width: auto;
     background-size: cover;
     background-position: center;
 }
 
-.main-nav
-{
+.main-nav{
     float: right;
     list-style: none;
     margin-top: 30px;
 }
 
-.main-nav li
-{
+.main-nav li{
     display: inline-block;
 }
 
-.main-nav li a
-{
+.main-nav li a{
     color:white;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-.main-nav li.active a
-{
+.main-nav li.active a{
     border: 1px solid white;
 }
 
-.main-nav li a:hover
-{
+.main-nav li a:hover{
     border: 1px solid white;
     background-color: darkorange;
     transition: all 0.5s ease-in;
 }
 
-.logo img
-{
+.logo img{
     width: 150px;
     height: auto;
     float: left;
 }
 
-body
-{
+body{
     font-family: monospace;
 }
 
-.row
-{
+.row{
     max-width: 1200px;
     margin: auto;
 }
 
-.hero
-{
+.hero{
     position: absolute;
     width: 1200px;
     margin-left: 0px;
@@ -73,12 +63,34 @@ body
     margin-top: 250px
 }
 
-h1
-{
+h1{
     color: white;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 50px;
+    text-align: center;   
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
     text-align: center;
-    
-    
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{ 
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Courier",sans-serif
 }
